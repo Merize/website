@@ -1,0 +1,70 @@
+.main-menu{
+  background-color: #fff;
+  font-family: Raleway;
+}
+
+.main-menu .navbar-nav > li > a {
+    color: #c1c1c1;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+    text-decoration: none;
+    color: #a29887;
+    background: none;
+}
+
+.jumbotron{
+  padding: 200px 0px;
+  background-image: url('../images/jumbotron-background3.jpg');
+  color: #fff;
+  text-align: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.jumbotron h1{
+    font-family: 'Poiret One', cursive;
+}
+
+.navbar-collapse {
+    text-align: center;
+}
+
+.navbar-collapse .nav {
+    display:inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+#portrait {
+    height: 160px;
+    padding: 5px;
+    border: 1px solid #a29887;
+    margin-bottom: 20px;
+}
+
+#description{
+  font-family: Raleway;
+}
+
+.section{
+  padding: 60px 0px;
+}
+
+.cv-section{
+  text-align: center;
+  color: #c1c1c1;
+  font-family: Raleway;
+}
+
+.cv-section h5{
+  font-family: 'Poiret One', cursive;
+  font-size: 24px;
+  color: #a29887;
+  text-transform: uppercase;
+}
+
+.cv-icon{
+  height: 80px;
+  margin-bottom: 5px;
+}

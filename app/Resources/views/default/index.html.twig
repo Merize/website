@@ -1,0 +1,51 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div id="wrapper">
+        <div class="container">
+          <!-- Présentation -->
+          <div class="section">
+            <div class="text-center">
+              <img id="portrait" class="img-responsive img-circle center-block" src="{{ asset('images/quentin.jpg') }}" alt="Quentin Muller" />
+              <p id="description">
+                Aujourd'hui développeur à Nantes,
+                <br>
+                Je suis passionné par le web et ce qui l'entoure depuis presque toujours.
+
+              </p>
+            </div>
+          </div>
+
+          <hr>
+
+          <!-- CV -->
+          <div class="section">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="cv-section">
+                    <!-- <i class="fa fa-graduation-cap fa-4x"></i> -->
+                    <img src="{{ asset('images/graduate.png') }}" class="cv-icon" alt="" />
+                    <h5>Parcours</h5>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="cv-section">
+                  <!-- <i class="fa fa-code fa-4x"></i> -->
+                  <img src="{{ asset('images/laptop.png') }}" class="cv-icon" alt="" />
+                  <h5>Compétences</h5>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="cv-section">
+                  <!-- <i class="fa fa-gamepad fa-4x"></i> -->
+                  <img src="{{ asset('images/tennis-player.png') }}" class="cv-icon" alt="" />
+                  <h5>Passions</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact -->
+        </div>
+    </div>
+{% endblock %}
